@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Browserify test (minified js library)</title>
+  <script src="../mylib.min.js"></script>
+
+</head>
+<body>
+<h3> Browserify test (minified js library) - see console</h3>
+
+<script>
+
+  console.log(MYLIB);
+  console.log(MYLIB.mod1);
+  console.log(MYLIB.mod2);
+
+  MYLIB.mod1.hello();
+  MYLIB.mod2.hello();
+</script>
+</body|>
+</html>
