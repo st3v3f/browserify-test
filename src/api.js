@@ -1,8 +1,4 @@
-// Install browserify and minify: npm install -g browserify minify
-// To convert to single JS file for browser: browserify src/main.js > mylib.js
-// To minify run: minify mylib.js > mylib.min.js
-
-// Require mod1
+// Require mod1 
 var mod1 = require('./mod1.js');
 
 // Require mod2
